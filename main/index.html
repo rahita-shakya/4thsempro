@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Hotel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="register.php">Register</a>
+        <a href="login.php">Login</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our luxurious hotel. Book your stay with us for a memorable experience.</p>
+        <img src="../photo/hotel1.jpg" alt="Hotel Image 1">
+        <img src="../photo/hotel2.jpg" alt="Hotel Image 2">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our hotel and the exceptional services we offer to our guests.</p>
+        <img src="../photo/hotel1.jpg" alt="Hotel Image 3">
+        <img src="../photo/hotel2.jpg" alt="Hotel Image 4">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us for any inquiries or assistance you may need during your stay.</p>
+        <img src="../photo/hotel1.jpg" alt="Hotel Image 5">
+        <img src="../photo/hotel2.jpg" alt="Hotel Image 6">
+    </section>
+      <button onclick="window.location.href='register.php'">Register</button>
+    <button onclick="window.location.href='login.php'">Login</button>
+</body>
+</html>
